@@ -1,38 +1,1426 @@
-.App {
+.Main{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+
+  /* background-color: black; */
+}
+.Frame808{
+   min-height: 100vh;
+   width: 100vw;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+   /* background-color: bisque; */
+   top: 79px;
+}
+.Navigation{
+   height: 107px;
+   width: 100vw;
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   z-index: 99;
+}
+.Header{
+  height: 72px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#F9F9FB;
+}
+.HeaderTime{
+  height: 45px;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: black;
+}
+.HeaderInner{
+  height: 100%;
+  width: 80.26%;
+  /* background-color: bisque; */
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  /* top: 13px; */
+  /* left: 20px; */
+}
+.ImageLogo{
+  width: 130.55px;
+  height: 50px;
+  margin-left: -10px;
+}
+.ImageLogoForMobile{
+  display: none;
+}
+.Checkout{
+  width: 101px;
+  height: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-left: -4%;
+  /* background-color: bisque; */
+}
+.Help{
+  width: 81px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  position: relative;
+  /* background-color: bisque; */
+
+}
+.LockImage{
+  height: 20px;
+  width: 20px;
+}
+.Qmark{
+  height: 20px;
+  width: 20px;
+}
+.CheckOutPTag,.Helptext{
+  color: #60646C;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+.Timer{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 14px;
   text-align: center;
+  color: white;
+  font-stretch: 100%;
+  letter-spacing: 0.5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.HeaderTimeInner{
+  width: fit-content;
+  height: fit-content;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Frame803{
+  min-height: 80vh;
+  width: 80vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: silver; */
+  margin-top: 9%;
+  border-bottom: 1px solid #D3D4DB;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Frame796{
+  min-height: 80vh;
+  width:66%;
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+  /* align-items: center; */
+  /* background-color: red; */
+}
+.BookingSlide{
+  width: 34%;
+  min-height: 80vh;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: auto;
+  margin-left: 5%;
+}
+.BookingSlideParentDivForMobile{
+  display: none;
+}
+.ConfirmAndPay{
+  width: 100%;
+  min-height: 206px;
+  /* background-color: black; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+.ConfirmnadPayDiv,.ConfirmadPayDivTotal{
+  width: 100%;
+  min-height: 92px;
+  /* background-color: red; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.ConfirmadPayDivTotal{
+  min-height: 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+
+}
+.ConfirmAndPayHTag,.ConfirmAndPayHTagTotal{
+  font-family: 'Roboto', sans-serif;
+  font-size: 57px;
+  font-weight: 400;
+  letter-spacing: 1%;
+  line-height: 64px;
+  color: #1C2024;
+}
+.ConfirmAndPayHTagTotal{
+  font-size: 24px;
+  position: relative;
+  left:-120%;
+  /* color: red; */
+}
+.NoticeDiv,.NoticeDiv2{
+  height: 82px;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: auto; */
+  /* flex-direction: row-reverse; */
+  /* align-items: center; */
+  border-radius: 16px;
+  background-color:#F9F9FB;
+  /* background-color: red; */
+  border: 1px solid #D3D4DB;
+  overflow: hidden;
+}
+.NoticeDiv2{
+  height: 102px;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.innerDivNoticeDiv,.innerDivNoticeDiv2{
+  height: 100%;
+  width: 80%;
+ /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding-left: 2.5%;
+  /* margin-right: auto; */
+  /* align-items: center; */
+}
+.innerDivNoticeDiv2{
+  margin-right: auto;
+  /* background-color: red; */
+  padding-left: 0;
+}
+.ImageLogoIButton,.ImageLogoIButton2{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+  position: relative;
+  top: 20px;
+  /* background-color: blue; */
+  /* margin-right: auto; */
+}
+.ImageLogoIButton2{
+  top: 20px;
+}
+.infoLogo{
+  height: 15px;
+  width: 15px;
+}
+.pTagInsideNoticeDiv1{
+  color: #1C2024;
+  position: relative;
+  top: 10px;
+  font-size: 14px;
+}
+.pTagInsideNoticeDiv2{
+  bottom: 10px;
+  position: relative;
+  color: rgb(159, 156, 156);
+  font-size: 14px;
+}
+.enterYourDetails{
+  width: 100%;
+  min-height: 368px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-direction: column;
+  border-bottom: 1px solid #D3D4DB;
+  /* background-color: black; */
+}
+.HeadingWithPara{
+  min-height: 88px;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+.HeadingWithPara h1{
+  font-family: 'Open Sans', sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+   letter-spacing: 0.6%;
+   line-height: 32px;
+   color: #1C2024;
+}
+.HeadingWithPara p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: #60646C;
+}
+.enteryourDetailsInner{
+  width: 100%;
+  min-height: 216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  background-color: white;
+  padding-top: 10px;
+}
+.enteryourDetailsInner1,.enteryourDetailsInner2,.enteryourDetailsInner3{
+  width: 100%;
+  min-height: 56px;
+  position: relative;
+}
+.enteryourDetailsInner1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enteryourDetailsInner1 input{
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  height: 56px;
+  outline: none;
+}
+.enteryourDetailsInner1 .Placeholderlabel1 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  pointer-events: none;
+  /* transition: transform 0.2s, font-size 0.2s; */
+  color: #888; /* Default color for the entire placeholder text */
+}
+.enteryourDetailsInner2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.countryCode,.phoneNumber{
+  width: 48%;
+  min-height: 56px;
+  overflow: hidden;
+}
+.CountryCodeDropDown,.CountryCodeDropDown2{
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  height: 56px; 
+  outline: none;
+
+}
+.countrycodeLabel{
+  pointer-events: none;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #888;
+
+}
+.phoneNumber input{
+  width: 98%;
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  height: 56px; 
+  outline: none;
+  /* padding-left: 10px; */
+}
+.Placeholderlabel2{
+  pointer-events: none;
+  position: absolute;
+  top: 15px;
+  right: 29%;
+  color: #888;
+
+}
+.enteryourDetailsInner3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.email,.confirmEmail,.inputLabel,.select{
+  width: 48%;
+  min-height: 56px;
+  overflow: hidden;
+}
+.email input{
+  width: 98%;
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  height: 56px; 
+  outline: none;
+}
+.Placeholderlabel3{
+  pointer-events: none;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #888;
+}
+.Placeholderlabel4{
+  pointer-events: none;
+  position: absolute;
+  top: 15px;
+  right: 30%;
+  color: #888;
+}
+.confirmEmail input{
+  width: 98%;
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  height: 56px; 
+  outline: none;
+}
+span{
+  color: red;
+}
+.additonalInformation{
+  min-height: 288px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-direction: column;
+  border-bottom: 1px solid #D3D4DB;
+  /* background-color: black; */
+}
+.Additional{
+  width: 100%;
+  min-height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  background-color: white;
+  padding-top: 10px;
+}
+.additionalupper{
+  width: 100%;
+  min-height: 56px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: black; */
+  padding-top: 5px;
+}
+.additionalBottom{
+  width: 100%;
+  min-height: 56px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputLabel input{
+  width: 98%;
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  height: 56px; 
+  outline: none;
+}
+.Placeholderlabel5{
+  pointer-events: none;
+  position: absolute;
+  top: 19px;
+  left: 15px;
+  color: #888;
+}
+.Placeholderlabel6{
+  pointer-events: none;
+  position: absolute;
+  top: 19px;
+  right: 40%;
+  color: #888;
+
+}
+.Placeholderlabel7{
+  pointer-events: none;
+  position: absolute;
+  left: 15px;
+  color: #888;
+  top: 15px;
+}
+.CountryCodeDropDown3{
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  height: 56px; 
+  outline: none;
+  width: 100%;
+  margin-bottom: 7%;
+}
+.CreditCardContainer{
+  width: 100%;
+  min-height: 874px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: black; */
+  position: relative;
+  border-bottom: 1px solid #D3D4DB;
+  padding-bottom: 7%;
+
+
+}
+.PaymentDivParent{
+  width: 100%;
+  min-height: 538px;
+  padding: 28px,24px,0px,24px;
+  border-radius: 16px;
+  border: 1px solid #1C2024;
+  justify-content: center;
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+.creditCardDiv{
+  width: 90%;
+  min-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  /* background-color: black; */
+}
+.creditCardInner{
+  width: 193px;
+  height: 24px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.radioButton{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.CustomRadio{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #D3D4DB;
+  background-color: white;
+}
+.CreditCradImagDiv{
+  width: 35px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.CreditCradImagDiv img{
+  height: 80%;
+  width: 80%;
+}
+.CreditCardContent{
+  min-width: 146px;
+  height: 22px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CreditCardContent p{
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 22px;
+  color: #1C2024;
+}
+.CreditCardLogoDiv{
+  width: 90%;
+  min-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  /* background-color: black; */
+}
+.ImageContCreditCard{
+  min-width: 105px;
+ min-height: 20px;
+ /* border: 0.63px solid #DDDDE3; */
+ display: flex;
+ gap: 8px;
+ /* background-color: red; */
+ margin-right: auto;
+ position: relative;
+}
+.ImageContCreditCard img{
+  height: 20px;
+  width: 35px;
+ border: 0.63px solid #DDDDE3;
+}
+.creditCardDetailsDiv{
+  width: 85%;
+  min-height: 140px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+}
+.creditCardDetailsDivTop,.creditCardDetailsDivBottom{
+  width: 100%;
+  min-height: 56px;
+  display: flex;
+  /* gap: 1px; */
+  position: relative;
+  /* overflow: hidden; */
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: black; */
+  margin-left: 2%;
+}
+.creditCardDetailsDivTopInner1,.creditCardDetailsDivTopInner2,.creditCardDetailsDivBottomInner1,.creditCardDetailsDivBottomInner2{
+  min-width: 380px;
+  min-height: 56px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creditCardDetailsDivTopInner1 input ,.creditCardDetailsDivTopInner2 input,.creditCardDetailsDivBottomInner1 input,.creditCardDetailsDivBottomInner2 input{
+  width: 75%;
+  border-radius: 13px;
+  border: 1px solid #D3D4DB;
+  height: 56px; 
+  outline: none;
+  /* display: none; */
+}
+.Placeholderlabel8{
+  position: absolute;
+  left: 70px;
+  color: #D3D4DB;
+}
+.Placeholderlabel9{
+  position: absolute;
+  color: #D3D4DB;
+  /* left: 20%; */
+}
+.Placeholderlabel9 img{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: -60%;
+
+}
+.Placeholderlabel10{
+  position: absolute;
+  left: 70px;
+  color: #D3D4DB;
+}
+.Placeholderlabel11{
+  position: absolute;
+  color: #D3D4DB;
+   left: 80px;
+}
+.TotalpaymentParentdiv,.TotalpaymentParentdivBookingSlide{
+ width: 90%;
+ min-height: 230px;
+ padding: 16px, 0px, 32px, 0px;
+ border: 1px, 0px, 0px, 0px;
+ gap: 32px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ /* background-color: black; */
+ position: relative;
+}
+.TotalpaymentParentdivBookingSlide{
+  /* background-color: black; */
+  width: 100%;
+}
+.TotalPaymentInner1,.TotalPaymentInner1BookingSlide{
+  width: 100%;
+  min-height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2px;
+  /* background-color: red; */
+  position: relative;
+  flex-direction: column;
+}
+.TotalPaymentInner1BookingSlide	{
+  width: 352px;
+  min-height: 94px;
+  /* background-color: bisque; */
+  gap: 20px;
+  
+
+}
+.TotalPaymentInner2,.TotalPaymentInner2PaymentDiv{
+  min-height: 96px;
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  /* background-color: blue; */
+}
+.TotalPaymentInner1Top,.TotalPaymentInner1TopBookingSlide	{
+  width: 100%;
+  min-height: 34px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.TotalPaymentInner1TopBookingSlide{
+  /* background-color: bisque; */
+  width:352px;
+  min-height:56px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.TotalPaymentInner1Top1,.TotalPaymentInner1Top1BookingSlide{
+  width: 85%;
+  height:34px;
+  display: flex;
+  align-items: center;
+  /* gap: 6px; */
+  position: relative;
+  /* background-color: black; */
+}
+.TotalPaymentInner1Top1BookingSlide{
+  width: 100%;
+  /* background-color: black; */
+}
+.TotalPaymentInner1Top1BookingSlide h3{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: white; */
+  width: 100%;
+  align-items: center;
+}
+
+.TotalPaymentInner1Top2,.TotalPaymentInner1Top2BookingSlide,.savedPriceParentForMobile{
+  width: 18%;
+  height: 29px;
+  position: relative;
+  background-color: #2cb273;
+  border-radius: 1000px;
+  padding: 4px, 8px, 4px, 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.savedPriceParentForMobile{
+  min-height: 22px;
+  width: 135px;
+  margin-right: auto;
+  display: none;
+}
+.TotalPaymentInner1Top2BookingSlide{
+  width:135px;
+ min-height:22px;
+padding: 2px, 6px, 2px, 6px;
+border-radius: 1000px;
+gap: 4px;
+justify-content: center;
+
+}
+.TotalPaymentInner1Top1 h3{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+.TotalPaySpan1,.TotalPaySpan2{
+  color: black;
+}
+.TotalPaymentInner1Top2 img,.TotalPaymentInner1Top2BookingSlide img,.savedPriceParentForMobile img{
+  height: 12px;
+  width: 12px;
+}
+.TotalPaymentInner1Top2 p,.TotalPaymentInner1Top2BookingSlide p,.savedPriceParentForMobile p{
+  font-size: 10px;
+  /* line-height: 18px; */
+  color: #E9F9EE;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.TotalPaymentInner1Bot,.TotalPaymentInner1BotPaymentDiv{
+  width: 178px;
+  height: 18px;
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 1.5px;
+  gap: 8px;
+  /* background-color: black; */
+  margin-right: auto;
+}
+.TotalPaymentInner1Bot p,.TotalPaymentInner1BotPaymentDiv p{
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: #60646C;
+  /* text-align: left; */
+}
+.TotalPaymentInner1Bot img,.TotalPaymentInner1BotPaymentDiv img{
+  height: 10px;
+  width: 10px;
+}
+.TotalPaymentInner2 p{
+   color: #60646C;
+   font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin-right: auto;
+}
+.TotalPaymentInner2 span{
+   color: #3A5CCC;
+}
+.ConfirmAndPayButton,.ConfirmAndPayButtonBookingSlide{
+  background-color: black;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  width: 220px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  gap: 12px;
+  margin-right: auto;
+  cursor: pointer;
+
+}
+.ConfirmAndPayButtonBookingSlide{
+  width:100%;
+min-height: 56px;
+padding: 16px, 20px, 16px, 20px;
+border-radius: 16px;
+gap: 12px;
+
+}
+.ConfirmAndPayButton img,.ConfirmAndPayButtonBookingSlide img{
+  height: 20px;
+  width: 20px;
+}
+.ComingSoonDiv{
+  width: 98%;
+  min-height: 72px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  background-color: #F9F9FB;
+  border-radius: 16px;
+  border: 1px solid #D3D4DB;
+  padding: 0px 10px 0px 10px;
+}
+.ComingSoonInner1{
+  width: 25%;
+  min-height: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  /* background-color: red; */
+}
+.ComingSoonInner1 img{
+  width: 35px;
+  height: 24px;
+}
+.ComingSoonInner1 p{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: #8B8D98;
+}
+.radioDivComigSoon{
+  height: 24px;
+  width: 24px;
+  /* border: 1px solid #D3D4DB; */
+  border: none;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TotalPaymentParent{
+  min-height: 100px;
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 7%;
+  /* border-bottom: 1px solid #D3D4DB; */
+  
+}
+.faqParentContainer{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  width: 100vw;
+  position: relative;
+  min-height: 654px;
+  /* background-color: bisque; */
+  align-items: center;
+  margin-top: 10%;
+  /* border-bottom: 1px solid #D3D4DB; */
+
+}
+
+.faqParentContainerInner,.faqParentContainerInner2ForMobile{
+  width: 80vw;
+  min-height: 654px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  /* background-color:black ; */
+  /* align-items: center; */
+}
+.faqParentContainerInner2ForMobile{
+  display: none;
+}
+.faqParentContainerInner1{
+  /* margin-top: 5%; */
+  min-width: 30vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  background-color: white;
+}
+.faqParentContainerInner2{
+  /* margin-top: 5%; */
+  width: 67vw;
+  min-height:654px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  background-color: white;
+}
+.ChatWithUs{
+  width: 99%;
+  position: relative;
+  min-height: 230px;
+  display: flex;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+ border-radius: 16px;
+ background-color: #F9F9FB;
+}
+.ChatWithUs1{
+  width: 55%;
+  /* background-color: blue; */
+  min-height: 122px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 20px;
+
+}
+.ChatWithUs1 p{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  width: 90%; 
+  margin-right: auto;
+}
+.ChatWithUs1 button{
+  background-color: black;
+  width: 129px;
+  height: 50px;
+  border-radius: 12px;
+padding: 14px, 16px, 14px, 16px;
+color: white;
+border: none;
+outline: none;
+margin-right: auto;
+}
+.ChatWithUs2{
+  width: 45%;
+  position: relative;
+  height:104px;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10%;
+}
+.ChatWithUs2 img{
+  height: 100%;
+  width: 104px;
+  object-fit: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.faqParentConatainerChild{
+  min-height: 74px;
+  width: 90%;
+  /* background-color: bisque; */
+  border: 1px solid #B9BBC6;
+  padding: 24px, 28px, 24px, 28px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* padding-top: 20px; */
+}
+.faqParentConatainerChildTop{
+  width: 90%;
+  height: 26px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  /* background-color: bisque; */
+}
+.faqParentConatainerChildBot{
+  height: 178px;
+  width: 90%;
+padding: 0px, 0px, 24px, 48px;
+
+/* display: none; */
+}
+.faqParentConatainerChildTop p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #60646C;
+  cursor: pointer;
+}
+.faqParentConatainerChildTop h3{
+  color: #1C2024;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 26px;
+}
+.faqParentConatainerChildBot p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #60646C;
+}
+.FooterParent{
+  width: 100vw;
+  height: 316px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 64px; */
+  background-color: black;
+padding: 120px, 0px, 32px, 0px;
+flex-direction: column;
+}
+.FooterTop{
+  height: 80%;
+  width: 100%;
+  position: relative;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid #3C3F44;
+}
+.FooterTopInner{
+  width: 80%;
+  height: 80px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: white; */
+  margin-top: 10%;
+}
+.FooterTopInner img{
+  width: 200px;
+  height: 70px;
+
+}
+.FooterBottom{
+  height: 20%;
+  width: 100%;
+  position: relative;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FooterBottomInner{
+  width: 80%;
+  min-height: 20px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  /* background-color: white; */
+}
+.FooterBottomInner1{
+  width: 87px;
+  display: flex;
+  position: relative;
+  height: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: white; */
+}
+.FooterBottomInner2{
+  min-width: 390px;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  /* background-color: red; */
+}
+.FooterBottomInner1 p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: #7D828A;
+}
+.FooterBottomInner1 img{
+  height: 10px;
+  width: 10px;
+}
+.Footertags{
+  font-size: 14px;
+  font-weight: 400;
+  color: #7D828A;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.BookingSlideParentDiv{
+  width: 384px;
+  min-height: 980px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #DDDDE3;
+  overflow: hidden;
+}
+.BookingSlideParentDivInner1{
+  width: 100%;
+  min-height: 576px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  /* background-color: red; */
+}
+.BookingSlideParentDivInner2{
+  width: 100%;
+  min-height:290px;
+  padding: 16px, 16px, 32px, 16px;
+border: 1px, 0px, 0px, 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+/* background-color: black; */
+gap: 32px
+
+}
+.BookingSlideParentDivInner1Top{
+  width: 100%;
+  min-height: 508px;
+  padding: 16px, 16px, 0px, 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  /* background-color: red; */
+}
+.BookingSlideParentDivInner1Bot{
+  width:100%;
+  min-height: 56px;
+  padding: 0px, 0px, 20px, 0px;
+  border: 1px, 0px, 0px, 0px;
+  /* gap: 16px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #D3D4DB;
+   border-top: 1px dotted #D3D4DB;
+  /* gap: 16px; */
+  /* background-color: blue; */
+}
+.BookingSlideParentDivInner1Bot1{
+  display: flex;
+  background-color: white;
+  position: relative;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+.ImageSlider{
+  width: 352px;
+  height: 198px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 20px 35px rgba(0, 0, 0, 0.2)
+}
+.ImageSlider img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.ButtonDiv{
+  height: 10%;
+  width: 90%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+.ButtonDiv img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.SliderCardDetailParent{
+  width: 352px;
+  min-height: 278px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  /* background-color: bisque; */
+  flex-direction: column;
+}
+.SliderCardDetailTop{
+  width: 352px;
+  min-height: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  /* background-color: black; */
+  position: relative;
+}
+.SliderCardDetailTop1{
+  width: 352px;
+  min-height: 20px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  /* background-color:red; */
+}
+.SliderCardDetailTop2{
+  min-height: 44px;
+  width: 352px;
+  position: relative;
+  /* background-color: blue; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SliderCardDetailtopBot{
+  width: 352px;
+  min-height: 188px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+}
+.SliderCardDetailTop1 img{
+  height: 14px;
+  width: 14px;
+}
+.Kptag{
+  color:#1C2024;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+text-align: right;
+}
+.SliderCardDetailTop1 p{
+  color: #60646C;
+}
+.SliderCardDetailTop2 p{
+  font-family: 'Open Sans', sans-serif;
+ color: #1C2024;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 22px; 
+}
+.FeaturesParent{
+  width: 100%;
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  /* background-color: black; */
+}
+.FeaturesParent img,.FeaturesBigParent img{
+  width: 20px;
+  height: 20px;
+}
+.FeaturesParent p,.FeaturesBigP1{
+  color:#1C2024;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.FeaturesBigParent{
+  width: 100%;
+  min-height: 54px;
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  /* background-color: black; */
+}
+.FeaturesBigInner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 20px;
+  /* background-color: black; */
+  width: 90%;
+  position: relative;
+}
+.FeaturesBigInner1{
+  width: 322px;
+  position: relative;
+  height: 28px;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.FeaturesBigInner1 p{
+  color: #1C2024;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.FeatureBigInner2 p{
+  color: #60646C;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+.FeatureBigInner2{
+  width: 322px;
+  position: relative;
+  height: 28px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+}
+.BookingSlideParentDivInner1Bot p{
+  color: #60646C;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
 }

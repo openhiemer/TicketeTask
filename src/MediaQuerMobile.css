@@ -1,0 +1,587 @@
+@media (min-width:300px) and (max-width:500px) {
+    .Navigation{
+        width: 100vw;
+        min-height: 102px;
+    }
+    .Header{
+        width: 90%;
+        height: 68px;
+        padding: 16px;
+         /* justify-content: space-between; */
+    }
+    .HeaderInner{
+        width:90%;
+      min-height:36px;
+      left: 16px;
+      justify-content: space-between;
+
+    }
+    .HeaderTime{
+        width:100%;
+       min-height:34px;
+       padding: 8px, 16px, 8px, 16px;
+
+    }
+    .Timer{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+ line-height: 18px;
+ letter-spacing: 0em;
+ text-align: center;
+    }
+   .Help p{
+    display: none;
+   }
+   .Help img{
+    width: 20px;
+   height: 20px;
+
+   }
+   .Checkout{
+   width:101px;
+   height:22px;
+   gap: 8px;
+   }
+   .Checkout p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left; 
+   }
+   .Checkout img{
+    width: 30px;
+    height: 30px;
+   }
+   .ImageLogoForMobile{
+     display: block;
+     height: 20px;
+     width: 20px;
+   }
+   .ImageLogo{
+    display: none;
+   }
+   .BookingSlide{
+    display: none;
+   }
+   .Frame808{
+    margin-top: 70px;
+   }
+   .Frame803{
+    /* background-color: black; */
+       width: 90vw;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .Frame796{
+    width: 100%;
+   /* height: 904px; */
+   padding: 0px, 16px, 0px, 16px;
+   gap: 24px;
+
+   }
+   .ConfirmAndPay{
+    width: 100%;
+    /* gap: 14px; */
+    min-height: 904px;
+    /* padding-left: 10px; */
+    gap: 24px;
+    align-items: center;
+    
+   }
+   .BookingSlideParentDivForMobile{
+    display: block;
+    width: 100%;
+    min-height: 695px;
+    border-radius:  12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #DDDDE3;
+    overflow: hidden;
+    /* padding-left: 10px; */
+   }
+   .ConfirmnadPayDiv{
+    width: 100%;
+    min-height: 60px;
+    /* background-color: red; */
+    display: flex;
+    /* padding-left: 20px; */
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+   }
+   .ConfirmAndPayHTag{
+      font-size: 32px;
+      position: absolute;
+      /* left: 5%; */
+  font-family: 'Roboto', sans-serif;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.6%;
+   }
+   .BookingSlideParentDivInner1{
+    /* background-color: black; */
+    position: relative;
+    /* padding-left: 10px; */
+   }
+   .BookingSlideParentDivInner2{
+    /* background-color: black; */
+    height: 142px;
+    width: 100%;
+    align-items: start;
+   }
+   .SliderCardDetailParent{
+    /* background-color: black; */
+    width: 100%;
+    position: relative;
+    padding-left: 10px;
+    min-height: 278px;
+   }
+   .SliderCardDetailTop{
+    /* background-color: red; */
+    width: 110%;
+    min-height: 66px;
+    gap: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+
+   }
+   .SliderCardDetailTop1{
+     /* width: 100%; */
+     min-height: 20px;
+     background-color: white;
+     gap: 4px;
+   }
+   .SliderCardDetailTop1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+   text-align: right;
+   }
+   .SliderCardDetailTop1 img{
+    height: 14px;
+    width: 14px;
+   }
+   .SliderCardDetailTop2{
+    min-height: 44px;
+    background-color: white;
+   }
+   .SliderCardDetailTop2 p{
+      font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+   }
+   .SliderCardDetailtopBot{
+    /* background-color: blue; */
+    min-height:188px;
+    gap: 8px;
+   }
+   .FeaturesParent{
+      min-height: 28px;
+      gap: 10px;
+      /* background-color: blue; */
+   }
+   .FeaturesParent img{
+    height: 20px;
+    width: 20px;
+   }
+   .FeaturesParent p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+   }
+   .FeaturesBigParent{
+    min-height: 54px;
+    /* background-color: blue; */
+   }
+   .FeaturesBigParent img{
+    height: 20px;
+    width: 20px;
+   }
+   .FeaturesBigInner1{
+    min-height: 28px;
+    background-color: white;
+   }
+   .FeaturesBigInner1 p{
+    font-size: 14px;
+    font-weight: 600;
+   }
+   .FeatureBigInner2{
+    min-height: 26px;
+    /* background-color: white; */
+   }
+   .FeatureBigInner2 p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #60646C;
+    
+   }
+
+   .TotalpaymentParentdiv{
+    /* background-color: blue; */
+    width: 100%;
+    /* display: none; */
+   }
+   .TotalPaymentInner1Bot{
+    background-color: white;
+    margin-left: 5%;
+   }
+   .TotalPaymentInner2{
+    /* background-color: white; */
+    display: none;
+   }
+   .TotalPaymentInner1TopBookingSlide{
+    /* background-color: red; */
+    width: 90%;
+    min-height: 56px;
+    /* margin-bottom:auto; */
+   }
+   .TotalPaymentInner1TopBookingSlide h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+   }
+   .TotalPaymentInner1Top2{
+    width: 135px;
+    min-height: 22px;
+   }
+   .NoticeDiv{
+     min-height: 94px;
+     /* background-color: black; */
+   }
+   .enterYourDetails{
+     width: 100%;
+     /* background-color: black; */
+     /* flex-direction: column-reverse; */
+   }
+   .HeadingWithPara{
+     /* background-color: black; */
+     min-height: 96px;
+   }
+   .HeadingWithPara h1{
+    font-size: 21px;
+    font-weight: 600;
+   }
+   .HeadingWithPara p{
+    font-size: 14px;
+    font-weight: 400;
+   }
+   .enteryourDetailsInner2,.enteryourDetailsInner3{
+    flex-direction: column;
+    gap: 24px;
+    /* background-color: black; */
+   }
+   .Placeholderlabel2{
+     top: 100px;
+     left: 20px;
+   }
+
+   .Placeholderlabel3{
+    left: 20px;
+   }
+   .Placeholderlabel4{
+    top: 100px;
+    left: 20px;
+   }
+
+   .enteryourDetailsInner3{
+    flex-direction: column;
+   }
+   .phoneNumber,.countryCode,.email,.confirmEmail{
+    width: 100%;
+    
+   }
+   .additionalupper{
+    /* background-color: black; */
+    flex-direction: column;
+    gap: 24px;
+   }
+   .inputLabel,.select{
+    width: 100%;
+   }
+   .Placeholderlabel6{
+    top: 110px;
+    left: 20px;
+   }
+   .Placeholderlabel5{
+      left: 20px;
+      top: 25px;
+   }
+   .creditCardDiv{
+    /* background-color: red; */
+    min-height: 20px;
+   }
+   .creditCardInner{
+    height: 20px;
+    /* background-color: black; */
+   }
+   .CreditCardContent{
+        font-size: 20px;
+   }
+   .CreditCradImagDiv img{
+    height: 20px;
+    width: 20px;
+   }
+   .ImageContCreditCard{
+    height: 16px;
+    padding-left: 5px;
+   }
+   .ImageContCreditCard img{
+     width: 21px;   
+     height: 14px;
+   }
+   .creditCardDetailsDivTop,.creditCardDetailsDivBottom{
+    /* background-color: black; */
+    flex-direction: column;
+    gap: 24px;
+    width: 90%;
+   }
+   .creditCardDetailsDiv{
+    /* background-color: red; */
+    width: 100%;
+   }
+   .creditCardDetailsDivTopInner1 input,.creditCardDetailsDivTopInner2 input,.creditCardDetailsDivBottomInner1 input,.creditCardDetailsDivBottomInner2 input{
+     width: 79%;
+   }
+
+   .TotalPaymentInner1,.TotalPaymentInner2PaymentDiv{
+    /* background-color: black; */
+    width: 85%;
+   }
+   .TotalPaymentInner1Top{
+    flex-direction: column-reverse;
+    gap: 10px;
+   }
+   .TotalPaymentInner1Top2,.TotalPaymentInner1Top1{
+    margin-right: auto;
+   }
+   .TotalPaymentInner1Top2{
+    width: 128px;
+    height: 22px;
+   }
+   .TotalPaymentInner1Top1 h3{
+       font-size: 18px;
+       /* color: red; */
+   }
+   .TotalPaymentInner2PaymentDiv p{
+     font-size: 12px;
+     font-weight: 400;
+   }
+   .termandCondition{
+    color:blue;
+   }
+   .ConfirmAndPayButton{
+    width: 100%;
+   }
+   .Placeholderlabel8,.Placeholderlabel9,.Placeholderlabel10,.Placeholderlabel11{
+    left: 50px;
+   }
+   .Placeholderlabel9 img{
+    display: none;
+   }
+   .ComingSoonDiv{
+    width: 95%;
+   }
+   .ComingSoonInner1 p{
+     font-size: 14px;
+   }
+   .ComingSoonInner1{
+    /* background-color: red; */
+    min-width:131px;
+    height: 20px;
+    /* gap: 8px; */
+   }
+   .savedPriceParentForMobile{
+    display: block;
+    position: relative;
+    display: flex;
+   }
+   .savedPriceParentForMobile p{
+    font-size: 10px;
+    /* line-height: 18px; */
+    color: #E9F9EE;
+    /* color: black; */
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+   }
+   .savedPriceParentForMobile img{
+    height: 12px;
+    width: 12px;
+   }
+   .TotalPaymentParent{
+     /* background-color: red; */
+     min-height: 240px;
+     /* gap: 24px; */
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+     flex-direction: column;
+   }
+   .ConfirmnadPayDivTotal{
+    /* background-color: red; */
+    position: relative;
+    min-height: 48px;
+    margin-right: auto;
+    /* overflow: hidden; */
+   }
+   .ConfirmAndPayHTagTotal{
+     left: 1px;
+     font-size: 21px;
+     font-weight: 600;
+   }
+   .NoticeDiv2{
+    min-height: 134px;
+    
+   }
+   .innerDivNoticeDiv2 p{
+    font-size: 14px;
+    font-weight: 400;
+   }
+   .faqParentContainerInner2{
+    display: none;
+   }
+   .faqParentContainerInner1{
+     min-height: 350px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .faqParentContainerInner2ForMobile{
+    display: block;
+    width: 80vw;
+    min-height: 654px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex-direction: column;
+   }
+   .faqParentContainer{
+    margin-top: 50%;
+    /* background-color: bisque; */
+     min-height: 1050px;
+   }
+   .faqParentContainerInner{
+     /* background-color: blue; */
+     width: 90%;
+     min-height: 350px;
+   }
+   .faqParentContainerInner1{
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 670px;
+   }
+   .faqParentContainerInner2ForMobile{
+    position: relative;
+    /* top:60%; */
+
+   }
+   .HeadingWithparaDivForMobile{
+    min-height: 35px;
+    min-width: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    top: -8%;
+   }
+   .faqParentConatainerChild{
+     min-height: 72px;
+     top: -8%;
+     /* background-color: black; */
+   }
+   .faqParentConatainerChildTop{
+    height: 40px;
+    /* width: 100%; */
+    /* background-color: white; */
+   }
+   .faqParentConatainerChildTop p{
+    font-size: 25px;
+   }
+   .faqParentConatainerChildBot p{
+    font-size: 10px;
+    line-height: 20px;
+   }
+   .faqParentConatainerChildTop h3{
+    font-size: 14px;
+   }
+   .faqParentConatainerChildBot{
+    min-height: 200px;
+    background-color: white;
+   }
+   .ChatWithUs{
+    /* background-color: red; */
+    top: -10%;
+    width: 90%;
+    left: 5%;
+   }
+   .FooterParent{
+    min-height: 294px;
+    width: 100%;
+   }
+   .FooterTop{
+    height: 130px;
+    width: 100%;
+
+   }
+   .FooterBottom{
+    height: 164px;
+    width: 100%;
+   }
+   .FooterBottomInner{
+    flex-direction: column-reverse;
+    /* background-color: white; */
+    width: 100%;
+    min-height: 78px;
+    gap: 20px;
+   }
+   .FooterBottomInner1{
+    margin-right: auto;
+    left: 5%;
+   }
+   .FooterBottomInner1 p{
+     font-size: 10px;
+   }
+   .FooterTopInner img{
+    width: 126px;
+    height: 32px;
+   }
+   .FooterBottomInner2 p{
+    font-size: 10px;
+   }
+
+}
+
+@media screen and (width:1280px) {
+  .creditCardDetailsDiv{
+    /* background-color: red; */
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .creditCardDetailsDivTop{
+    /* background-color: white; */
+    left: -1%;
+    width: 90%;
+  }
+  .creditCardDetailsDivBottom{
+    /* background-color: white; */
+    left: -1%;
+    width: 90%;
+  }
+  
+}
