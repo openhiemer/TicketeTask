@@ -51,5 +51,5 @@ Tickete Booking Page is designed to provide users with a simple and intuitive in
     npm start
     ```
 
-2. Access the booking page in your browser at [http://localhost:3000](http://localhost:3000).
+2. Access the booking page in your browser at [https://bookingattickete.netlify.app](https://bookingattickete.netlify.app).
 
